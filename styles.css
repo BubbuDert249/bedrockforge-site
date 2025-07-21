@@ -1,0 +1,25 @@
+h1,h2,h3,h4,h5,p,a {
+  font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: #f7550a;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #fa7d43;
+  }
+
+  button:active {
+    background-color: #a13300;
+  }
