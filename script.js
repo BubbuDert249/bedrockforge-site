@@ -2,7 +2,7 @@
             window.open('https://github.com/BubbuDert249/bedrockforge/releases', '_blank');
         }
 
-        function downloadFile() {
+        function downloadmod() {
             const link = document.createElement('a');
             link.href = 'testmod.bdr';  // Path to your local file relative to your HTML file
             link.download = 'testmod.bdr';    // Suggested filename
